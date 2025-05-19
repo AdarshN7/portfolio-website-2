@@ -25,14 +25,14 @@ const Contact = () => {
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-white">Let's Talk</h3>
             <p className="text-muted-foreground">
-              Whether you have a project in mind, job opportunity, or just want to say hello, feel free to reach out. I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+              I'm currently open to new opportunities and collaborations in frontend development, particularly with React and Next.js projects. Feel free to reach out if you're looking for a developer who can deliver clean code and exceptional user experiences.
             </p>
             
             <div className="space-y-4 pt-4">
               <div className="flex items-center space-x-3">
                 <Mail className="text-primary h-5 w-5" />
-                <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  hello@example.com
+                <a href="mailto:adarsh@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  adarsh@example.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -44,13 +44,13 @@ const Contact = () => {
               <div className="flex items-center space-x-3">
                 <Linkedin className="text-primary h-5 w-5" />
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                  linkedin.com/in/johndoe
+                  linkedin.com/in/adarsh
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Github className="text-primary h-5 w-5" />
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                  github.com/johndoe
+                  github.com/adarsh
                 </a>
               </div>
             </div>

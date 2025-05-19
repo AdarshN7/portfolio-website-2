@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Globe, Image, Linkedin, Layout, User } from 'lucide-react';
+import { Code, Globe, Layout, Server } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { name: 'Frontend Development', icon: <Code className="h-6 w-6 text-primary" />, description: 'React, Vue, Angular, HTML, CSS, JavaScript, TypeScript' },
-    { name: 'Backend Development', icon: <Layout className="h-6 w-6 text-primary" />, description: 'Node.js, Express, Django, Laravel, PostgreSQL, MongoDB' },
-    { name: 'UI/UX Design', icon: <Image className="h-6 w-6 text-primary" />, description: 'Figma, Adobe XD, Responsive Design, User Experience' },
-    { name: 'DevOps & Deployment', icon: <Globe className="h-6 w-6 text-primary" />, description: 'AWS, Docker, CI/CD, Git, GitHub Actions' },
+    { name: 'Frontend Development', icon: <Code className="h-6 w-6 text-primary" />, description: 'React, Next.js, TypeScript, Tailwind CSS, Material UI' },
+    { name: 'UI/UX Design', icon: <Layout className="h-6 w-6 text-primary" />, description: 'Responsive Design, Component Libraries, Figma, User Experience' },
+    { name: 'Backend Integration', icon: <Server className="h-6 w-6 text-primary" />, description: 'RESTful APIs, GraphQL, Authentication, State Management' },
+    { name: 'Deployment & CI/CD', icon: <Globe className="h-6 w-6 text-primary" />, description: 'Vercel, Netlify, GitHub Actions, Docker' },
   ];
 
   return (
@@ -18,17 +18,17 @@ const About = () => {
           <div className="w-full md:w-1/3 space-y-4">
             <p className="text-primary font-medium">About Me</p>
             <h2 className="text-3xl font-bold text-white">
-              Passionate about creating exceptional digital experiences
+              Passionate frontend developer with React & Next.js expertise
             </h2>
             <div className="border-b-2 border-primary w-16"></div>
           </div>
           
           <div className="w-full md:w-2/3 space-y-6">
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize in building modern, responsive, and user-friendly applications. My journey began with a Computer Science degree, followed by roles at various tech companies where I honed my skills in both frontend and backend development.
+              With 3 years of experience in frontend development, I specialize in building modern, responsive web applications using React and Next.js. I'm passionate about creating clean, efficient code that delivers exceptional user experiences and solves real business problems.
             </p>
             <p className="text-muted-foreground">
-              I'm passionate about creating clean, efficient code that solves real problems. My approach combines technical expertise with a strong focus on user experience, ensuring that the applications I build are not only functional but also intuitive and enjoyable to use.
+              My approach combines technical expertise with an eye for design, ensuring the applications I build are not only functional and performant but also intuitive and visually appealing. I enjoy working in collaborative environments where I can contribute my skills to create impactful digital solutions.
             </p>
             
             <div className="pt-8">

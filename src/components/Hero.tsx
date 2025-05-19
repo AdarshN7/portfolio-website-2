@@ -15,13 +15,13 @@ const Hero = () => {
           <div className="w-full md:w-1/2 space-y-6 animate-fade-in">
             <p className="text-primary font-medium">Hello, I'm</p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white">
-              <span className="block">John Doe</span>
+              <span className="block">Adarsh</span>
               <span className="block mt-2">
-                <span className="text-primary">Full Stack</span> Developer
+                <span className="text-primary">Frontend</span> Developer
               </span>
             </h1>
             <p className="text-muted-foreground text-lg max-w-lg">
-              I craft responsive websites and web applications that deliver exceptional user experiences. Specializing in modern JavaScript frameworks and scalable backend solutions.
+              I craft modern web applications with React and Next.js, focusing on responsive design, performance optimization, and exceptional user experiences.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -53,7 +53,7 @@ const Hero = () => {
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-primary to-purple-700 overflow-hidden">
                   {/* This is where a profile image would go */}
                   <div className="w-full h-full flex items-center justify-center text-white text-4xl sm:text-5xl font-bold">
-                    JD
+                    AD
                   </div>
                 </div>
               </div>

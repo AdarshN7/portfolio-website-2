@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Github, Link } from 'lucide-react';
@@ -7,27 +6,27 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-commerce Platform',
-      description: 'A full-featured e-commerce platform with product listings, shopping cart, and secure checkout.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'E-commerce Dashboard',
+      description: 'A comprehensive admin dashboard for e-commerce platforms built with Next.js, React Query, and Tailwind CSS.',
+      tech: ['Next.js', 'React Query', 'Tailwind CSS', 'TypeScript'],
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMzczODV8MHwxfHNlYXJjaHwxMHx8Y29kaW5nfGVufDB8fHx8MTcxNjI0OTgzM3ww&ixlib=rb-4.0.3&q=80&w=1080',
       github: 'https://github.com',
       demo: 'https://example.com',
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates and team features.',
-      tech: ['Vue', 'Firebase', 'Tailwind CSS', 'TypeScript'],
+      title: 'Real-time Chat Application',
+      description: 'A messaging platform with real-time updates using React, Socket.io, and Firebase authentication.',
+      tech: ['React', 'Socket.io', 'Firebase', 'Styled Components'],
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMzczODV8MHwxfHNlYXJjaHw5fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNzE2MjQ5NzYzfDA&ixlib=rb-4.0.3&q=80&w=1080',
       github: 'https://github.com',
       demo: 'https://example.com',
     },
     {
       id: 3,
-      title: 'Finance Dashboard',
-      description: 'An analytics dashboard providing financial insights and visualizations for businesses.',
-      tech: ['React', 'Express', 'MySQL', 'Recharts'],
+      title: 'Content Management System',
+      description: 'A headless CMS built with Next.js, featuring dynamic content loading, user roles, and markdown support.',
+      tech: ['Next.js', 'GraphQL', 'Auth0', 'Material UI'],
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMzczODV8MHwxfHNlYXJjaHw0fHxjb2RpbmclMjBtYWMlMjBib29rfGVufDB8fHx8MTcxNjI0OTg1OXww&ixlib=rb-4.0.3&q=80&w=1080',
       github: 'https://github.com',
       demo: 'https://example.com',
